@@ -1,0 +1,35 @@
+<% layout("layouts/boilerplate")%>
+
+<style> .alert-heading{
+        font-size: 1.2em;
+
+}
+
+.row{
+  height: 100vh;
+}
+
+</style>
+
+
+  
+<div class="row">
+  <div class="col-6 offset-3  mb-5">
+    <div class="alert alert-danger mb-5 overflow-auto" role="alert">
+        <h4 class="alert-heading"> <%= err.message%> </h4>
+
+          <% if(process.env.NODE_ENV !== "production") { %>  
+        <p> <%= err.stack %></p>
+       <%}%>
+         
+        <hr class="mb-3 mt-3">
+
+        <h3> &nbsp; &nbsp; &nbsp; &nbsp; ) :</h3>
+
+    </div>
+
+
+      <!-- <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p> -->
+    
+  </div>
+</div>

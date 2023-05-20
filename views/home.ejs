@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to YelpCamp</title>
+	<!-- google fonts inter -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/stylesheets/home.css">
+</head>
+<body>
+
+	<header>
+			<div class="nav-title">
+				<h3>YelpCamp</h3>
+			</div>
+
+		<nav>
+			<div class="nav-link-container">		
+				<a href="/"  class="nav-link active"> Home</a>
+				<a href="/campgrounds"  class="nav-link"> Campgrounds</a>
+		
+				<% if(!currentUser) { %>
+				<a href="/login" class="nav-link">Login</a>
+				<a href="/register" class="nav-link">Register</a>
+				<% } else { %>
+				<a href="/logout" class="nav-link">Logout</a>
+				<% } %>
+		
+			</div>
+
+		</nav>
+	</header>
+
+	<main >
+		<h1 class="main-title">YelpCamp</h1>
+		<br>
+			
+		<p class="animated-text"> Welcome to YelpCamp! <br> Jump right in and explore our many campgrounds. <br>
+		Feel free to share some of your own and comment on others!</p>
+		
+		 <br>
+		<div>    
+			<a class="btn" href="/campgrounds">View
+			Campgrounds</a>
+		</div>
+
+	</main>
+
+	<footer>
+		<p>&copy; 2023 YelpCamp </p>
+	</footer>
+
+
+
+
+</body>
+</html>
