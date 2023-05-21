@@ -18,9 +18,7 @@
     <div class="alert alert-danger mb-5 overflow-auto" role="alert">
         <h4 class="alert-heading"> <%= err.message%> </h4>
 
-          <% if(process.env.NODE_ENV !== "production") { %>  
-        <p> <%= err.stack %></p>
-       <%}%>
+        
          
         <hr class="mb-3 mt-3">
 
