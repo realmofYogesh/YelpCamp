@@ -9,7 +9,7 @@
   <h2  align="center" >YelpCamp</h2>
 
   <p align="center">
-    Discover, Create and Review amazing Campgrounds!   </p>
+    Discover, Create and Review amazing places!   </p>
 <!--     <br /> -->
 <!--     <a href="https://github.com/your_username/repo_name"><strong>Explore the docs »</strong></a> -->
 <!--     <br /> -->
@@ -18,7 +18,16 @@
 <!--     · -->
 <!--     <a href="https://github.com/your_username/repo_name/issues">Request Feature</a> -->
 
-  <h1   align="center">  <a  href="https://campyelp.cyclic.app" target="_blank"> View Demo  » </a> </h1>
+  
+  
+<!--     <h1   align="center">  <a  href="https://campyelp.cyclic.app" target="_blank"> View Demo  » </a> </h1> -->
+  
+  # The demo link isn't working  
+
+  - Previously I hosted it on cyclic.com but this service is not availabe anymore.
+  - Demo link expired https://campyelp.cyclic.app
+  - Though locally it is runnable with some configuration.
+
 
 <!-- TOC is ceated using https://luciopaiva.com/markdown-toc/ -->
 
@@ -40,13 +49,13 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-- YelpCamp is a dynamic __full-stack__ web application that allows users to create, discover and review campgrounds. 
+- YelpCamp is a dynamic __full-stack__ web application that allows users to create, discover and review places. 
 - It provides a platform for camping enthusiasts to share their experiences, explore new destinations.
-- Users can explore detailed campground listings, __read, write and delete__ reviews.
+- Users can explore detailed place listings, __read, write and delete__ reviews.
 - And even __upload images__ to enhance their camping experiences.
-- __Interactive Maps:__ Campgrounds are displayed on maps for easy visualization and exploration.
+- __Interactive Maps:__ places are displayed on maps for easy visualization and exploration.
 - This **project is a part of Colt Steele's web dev bootcamp course on udemy**.
-- Deployed using <a href="https://www.cyclic.sh/" target="_blank"> Cyclic</a>
+- Deployed using <a href="https://www.cyclic.sh/" target="_blank"> Cyclic</a> (Cyclic is not in service)
 
 <br/>
 
@@ -110,9 +119,9 @@
 ## How to Use it
 
 - Create an account or log in to access the full functionality of the application.
-- Explore campgrounds, read reviews.
-- Add new campgrounds, leave reviews (contribute to the community).
-- Edit or delete campgrounds and reviews you have created.
+- Explore places, read reviews.
+- Add new places, leave reviews (contribute to the community).
+- Edit or delete places and reviews you have created.
 
 <br/>
 
@@ -126,12 +135,12 @@
 - __Authentication__ ( using Passport.js )
 
 ### Functionalities features
-- In order to review or create a campground, you __must have an account__.
+- In order to review or create a place, you __must have an account__.
 - __User Registration and Authentication:__ Users can create accounts, log in, and securely access their profiles.
-- **Campground Management:** Users can add new campgrounds, edit existing ones, and delete campgrounds they have created.
-- __Reviews and Ratings:__ Users can leave reviews and ratings for campgrounds, helping others make informed decisions.
-- __Interactive Maps:__ Campgrounds are displayed on maps for easy visualization and exploration.
-- __Image Upload and Storage:__ Users can upload images of campgrounds to enhance their listings.
+- **place Management:** Users can add new places, edit existing ones, and delete places they have created.
+- __Reviews and Ratings:__ Users can leave reviews and ratings for places, helping others make informed decisions.
+- __Interactive Maps:__ places are displayed on maps for easy visualization and exploration.
+- __Image Upload and Storage:__ Users can upload images of places to enhance their listings.
 - __Responsive Design:__ The application is fully responsive and optimized for a seamless experience across devices.
 
 
